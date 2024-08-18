@@ -42,13 +42,13 @@ const Signup = () => {
       <div className={`mx-auto w-full max-w-lg bg-gray-200/50 rounded-xl p-10`}>
         <div className='mb-2 flex justify-center'>
           <span className='inline-block w-full max-w-[60px]'>
-            <Image src='/favicon.ico' alt='Logo' />
+            <img src='/favicon.ico' alt='Logo' />
           </span>
         </div>
         <h2 className='text-center text-2xl font-bold leading-tight text-black'>
           Sign up to create account
         </h2>
-        <p className='mt-2 text-center text-base text-gray-600'>
+        <p className='mt-2 text-center text-base text-gray-300/80'>
           Already have an account?&nbsp;
           <Link
             href='/login'
@@ -69,7 +69,7 @@ const Signup = () => {
               </label>
               <div className='mt-2'>
                 <input
-                  className='flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50'
+                  className='flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-300/80 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50'
                   type='text'
                   placeholder='Full Name'
                   id='name'
@@ -90,7 +90,7 @@ const Signup = () => {
               </label>
               <div className='mt-2'>
                 <input
-                  className='flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50'
+                  className='flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-300/80 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50'
                   type='email'
                   value={formData.email}
                   onChange={(e) =>
@@ -113,7 +113,7 @@ const Signup = () => {
               </div>
               <div className='mt-2'>
                 <input
-                  className='flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50'
+                  className='flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-300/80 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50'
                   type='password'
                   placeholder='Password'
                   value={formData.password}

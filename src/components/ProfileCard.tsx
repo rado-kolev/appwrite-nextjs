@@ -32,7 +32,7 @@ const ProfileCard = () => {
             <div className='relative'>
               <p className='font-bold text-xl w-full mb-1'>{user.name}</p>
               <div className='text-[12px] p-0.5 inline-block rounded-md bg-gradient-to-tr from-primary to-secondary'>
-                <button className='px-2 rounded-md font-bold bg-white'>
+                <button className='px-2 rounded-md font-bold bg-white text-black'>
                   FREE
                 </button>
               </div>
@@ -59,7 +59,7 @@ const ProfileCard = () => {
           <div className='w-full flex justify-center'>
             <Link
               href={'/logout'}
-              className='bg-gray-200/70 rounded-xl px-6 py-3 inline-block hover:bg-gray-100 duration-150'
+              className='bg-gray-200/70 font-semibold rounded-xl px-6 py-3 inline-block hover:bg-gray-100 hover:text-gray-600 duration-150'
             >
               Logout
             </Link>
